@@ -1,12 +1,21 @@
 body {
-  margin: 2px 2px 0;
   font-family: 'Roboto', sans-serif;
+  background-color: #355C7D;
+}
+
+.logo-image {
+  height: 50px;
+  width: 50px;
 }
 
 .intro {
   width: 80%;
   margin: 1em auto 1em;
   text-align: center;
+}
+
+h1, h3, a {
+  color: #f4dddd;
 }
 
 h1 {
@@ -30,19 +39,38 @@ a {
   text-decoration: none;
 }
 
-.portfolio, .about, .contact {
+.nav-section > a {
   height: 7em;
+  display: block;
 }
 
-.portfolio {
+.nav-section h2 {
+  position: relative;
+  font-size: 3.5em;
+}
+
+.nav-section h2.plus::before {
+  content: "+";
+}
+
+.nav-section h2.minus::before {
+  content: "-";
+}
+
+.nav-section-inner {
+  height: 0%;
+  background-color: #feeeee;
+}
+
+.portfolio a {
   background-color: #F67280;
 }
 
-.about {
+.about a {
   background-color: #C06C84;
 }
 
-.contact {
+.contact a {
   background-color: #6C5B7B;
 }
 
@@ -52,8 +80,8 @@ a {
 }
 
 .contact-buttons a {
-  border: 1px solid black;
-  background-color: #355C7D;
+  border: 1px solid white;
+  /* background-color: #355C7D; */
   text-decoration: none;
   border-radius: 1.5em;
   padding: .3em 1em .3em 1em;

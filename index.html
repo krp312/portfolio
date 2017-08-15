@@ -1,26 +1,78 @@
 <!doctype HTML>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>kristoffer panahon, web developer</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  </head>
-  <body>
-    <div class="intro">
-      <h1>kristoffer panahon</h1>
-      <h3>aspiring developer</h3>
-    </div>
-    <div class="container">
-      <div class="portfolio"><a href=""><h2>+ portfolio</h2></a></div>
-      <div class="about"><a href=""><h2>+ about</h2></a></div>
-      <div class="contact"><a href=""><h2>+ contact</h2></a></div>
-    </div>
-    <div class="contact-buttons">
-      <a>email</a>
-      <a>github</a>
-      <a>linkedin</a>
-    </div>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>kristoffer panahon, web developer</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+  <div class="intro">
+    <img src="logo.svg" alt="" class="logo-image">
+    <h1>kristoffer panahon</h1>
+    <div>aspiring developer</div>
+  </div>
+  <div class="container">
+    <section class="portfolio nav-section">
+      <a href="">
+        <h2 class="plus">portfolio</h2>
+      </a>
+      <style>
+        .nav-section-inner {
+          height: 0px;
+          overflow: hidden;
+          transition: height 0.5s ease-out;
+        }
+        .open-inner {
+          height: 100%;
+        }
+      </style>
+      <script>
+        let activeSection;
+        $('.nav-section a').on('click', function(event) {
+          event.preventDefault();
+          activeSection.find('.nav-section-inner').remove('open-inner');
+          $(this).sibling('.nav-section-inner').toggleClass('open-inner')
+          activeSection = $(this);
+
+          // add minus class, remove plus class
+        });
+      </script>
+      <div class="nav-section-inner open-inner">
+        <ol>
+          <li>
+            <h3>api hack</h3>
+            <img src="" alt="">
+            <p>description</p>
+            <ul>
+              <li>github</li>
+              <li>live</li>
+            </ul>
+          </li>
+          <li></li>
+          <li></li>
+        </ol>
+      </div>
+    </section>
+    <section class="about nav-section">
+      <a href="">
+        <h2 class="plus">about</h2>
+      </a>
+    </section>
+    <section class="contact nav-section">
+      <a href="">
+        <h2 class="plus">contact</h2>
+      </a>
+    </section>
+  </div>
+  <div class="contact-buttons">
+    <a>email</a>
+    <a>github</a>
+    <a>linkedin</a>
+  </div>
+</body>
+
 </html>
