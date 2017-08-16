@@ -14,8 +14,8 @@ body {
   text-align: center;
 }
 
-h1, h3, a, span {
-  color: #f4dddd;
+.intro > * {
+  color: white;
 }
 
 h1 {
@@ -61,23 +61,40 @@ a {
   background-color: #feeeee;
   max-height: 0;
   overflow: hidden;
-  transition: all 0.5s ease-out;
+  transition: all 0.5s cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
 
 .open-inner {
-  max-height: 500px;
+  /* needs to be bigger than the hidden div */
+  max-height: 201px;
+}
+
+.nav-section-inner > * {
+  color: black;
 }
 
 .portfolio a {
   background-color: #F67280;
 }
 
+.portfolio h2 {
+  color: #fdd9dc;
+}
+
 .about a {
   background-color: #C06C84;
 }
 
+.about h2 {
+  color: #f0dbe1;
+}
+
 .contact a {
   background-color: #6C5B7B;
+}
+
+.contact h2 {
+  color: #cdc4d4;
 }
 
 .contact-buttons {
@@ -88,9 +105,9 @@ a {
 
 .contact-buttons a {
   border: 1px solid white;
-  /* background-color: #355C7D; */
   text-decoration: none;
   border-radius: 1.5em;
   padding: .3em 1em .3em 1em;
   margin: 0 .3em 0;
+  color: white;
 }
