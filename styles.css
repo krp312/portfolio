@@ -66,7 +66,7 @@ a {
 
 .open-inner {
   /* needs to be bigger than the hidden div */
-  max-height: 1500px;
+  max-height: 455px;
 }
 
 .nav-section-inner > * {
@@ -120,4 +120,10 @@ a {
   display: flex;
   flex-direction: column;
   padding: 0 1em 0;
+}
+
+@media (max-width: 375px) {
+  .disclaimer {
+    display: none;
+  }
 }
