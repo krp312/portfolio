@@ -14,12 +14,12 @@ body {
   text-align: center;
 }
 
-h1, h3, a {
+h1, h3, a, span {
   color: #f4dddd;
 }
 
 h1 {
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 
@@ -46,7 +46,7 @@ a {
 
 .nav-section h2 {
   position: relative;
-  font-size: 3.5em;
+  font-size: 2.5em;
 }
 
 .nav-section h2.plus::before {
@@ -58,8 +58,14 @@ a {
 }
 
 .nav-section-inner {
-  height: 0%;
   background-color: #feeeee;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-out;
+}
+
+.open-inner {
+  max-height: 500px;
 }
 
 .portfolio a {
@@ -77,6 +83,7 @@ a {
 .contact-buttons {
   text-align: center;
   margin-top: 1.6em;
+  margin-bottom: 1.6em;
 }
 
 .contact-buttons a {
