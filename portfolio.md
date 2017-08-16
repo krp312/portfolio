@@ -53,6 +53,7 @@ portfolio section
     technology, but not as important
 console error
 open inner for each subsection
+collapse section link in the portfolios section
 
 ## desktop
 desktop, more spacing
