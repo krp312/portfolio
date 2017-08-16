@@ -54,6 +54,7 @@ portfolio section
 console error
 open inner for each subsection
 collapse section link in the portfolios section
+opacity
 
 ## desktop
 desktop, more spacing

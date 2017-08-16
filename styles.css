@@ -27,6 +27,7 @@ body {
 
 .intro span {
   font-size: 1.5rem;
+  opacity: 0.29;
 }
 
 h1 {
@@ -73,11 +74,11 @@ a {
   background-color: #feeeee;
   max-height: 0;
   overflow: hidden;
-  transition: all 0.5s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+  transition: all 1.3s cubic-bezier(0.45, 0.05, 0.55, 0.95)
 }
 
 .open-inner {
-  max-height: 79.3rem;
+  max-height: 90.5rem;
 }
 
 .nav-section-inner > * {
