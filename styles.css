@@ -52,7 +52,6 @@ a {
 }
 
 .nav-section > a {
-  height: 9.4rem;
   display: block;
 }
 
@@ -95,6 +94,7 @@ ol > li {
 
 .portfolio a {
   background-color: #F67280;
+  height: 14.4rem;
 }
 
 .portfolio h2 {
@@ -103,6 +103,7 @@ ol > li {
 
 .about a {
   background-color: #C06C84;
+  height: 11.3rem;
 }
 
 .about h2 {
@@ -115,6 +116,7 @@ ol > li {
 
 .contact a {
   background-color: #6C5B7B;
+  height: 7.8rem;
 }
 
 .contact h2 {
@@ -163,4 +165,8 @@ li {
 
 .about-blurb p {
   margin: 1.3rem 0;
+}
+
+.cartoon-face {
+  width: 10rem;
 }
