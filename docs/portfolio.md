@@ -23,9 +23,7 @@ sunset
 how did mark do the anchor tag to fill out the entire box?
 
 ## general
-too much pink on ip5 viewport?
-varying heights for the sections
-breakpoints for jquery -- think of it like css
+breakpoints for jquery to test open-inner functionality -- think of it like css
 waveform for my name
 +/- animation on hover
 use plugin: https://a11y.nicolas-hoffmann.net/accordion/?animated=1
