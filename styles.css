@@ -179,11 +179,18 @@ li {
   display: block;
 }
 
+button {
+  text-align: left;
+  font-size: 2.3rem;
+  font-family: inherit;
+}
+
 #accordion-0-0_tab {
   background-color: #F67280;
   height: 8rem;
   border: none;
   width: 100%;
+  color: #fdd9dc;
 }
 
 #accordion-0-1_tab {
@@ -191,6 +198,7 @@ li {
   height: 8rem;
   border: none;
   width: 100%;
+  color: #f0dbe1;
 }
 
 #accordion-0-2_tab {
@@ -198,6 +206,7 @@ li {
   height: 8rem;
   border: none;
   width: 100%;
+  color: #cdc4d4;
 }
 
 /* title opened */
@@ -209,14 +218,15 @@ li {
   content: "+ ";
 }
 
-/* title selected */
+/* title selected
 .js-accordion__header[aria-selected="true"]:after {
   content: " (sel)";
 }
-/* title non selected */
+
+title non selected
 .js-accordion__header[aria-selected="false"]:after {
   content: " (unselc)";
-}
+} */
 
 .animated-accordion__panel {
   display: block;
