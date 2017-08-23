@@ -92,19 +92,19 @@ ol > li {
   margin-bottom: 1.2rem;
 }
 
-.portfolio a {
+/* .portfolio {
   background-color: #F67280;
   height: 9rem;
-}
+} */
 
 .portfolio h2 {
   color: #fdd9dc;
 }
 
-.about a {
+/* .about {
   background-color: #C06C84;
   height: 8.5rem;
-}
+} */
 
 .about h2 {
   color: #f0dbe1;
@@ -171,16 +171,33 @@ li {
   width: 10rem;
 }
 
-.your-prefix-class__panel[aria-hidden=true] {
-  display: none;
-}
-
 .js-accordion__panel[aria-hidden=true] {
   display: none;
 }
 
 .js-accordion__header {
   display: block;
+}
+
+#accordion-0-0_tab {
+  background-color: #F67280;
+  height: 8rem;
+  border: none;
+  width: 100%;
+}
+
+#accordion-0-1_tab {
+  background-color: #C06C84;
+  height: 8rem;
+  border: none;
+  width: 100%;
+}
+
+#accordion-0-2_tab {
+  background-color: #6C5B7B;
+  height: 8rem;
+  border: none;
+  width: 100%;
 }
 
 /* title opened */
@@ -200,3 +217,27 @@ li {
 .js-accordion__header[aria-selected="false"]:after {
   content: " (unselc)";
 }
+
+.animated-accordion__panel {
+  display: block;
+  overflow: hidden;
+  opacity: 1;
+  transition: visibility 0s ease, max-height 1s ease, opacity 1s ease ;
+  max-height: 100em;
+  /* magic number for max-height = enough height */
+  visibility: visible;
+  transition-delay: 0s;
+  margin: 0;
+  padding: 0;
+ }
+
+ /* This is the hidden state */
+ [aria-hidden=true].animated-accordion__panel {
+  display: block;
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition-delay: 1s, 0s, 0s;
+  margin: 0;
+  padding: 0;
+ }

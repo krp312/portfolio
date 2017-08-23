@@ -8,27 +8,28 @@
     <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- dunno if this pathing is the right way -->
+    <script src="./node_modules/jquery-accessible-accordion-aria/jquery-accessible-accordion-aria.js"></script>
     <script src="./app.js"></script>
   </head>
-
-  <div class="js-accordion" data-accordion-prefix-classes="your-prefix-class">
-    <div class="js-accordion__panel">
-      <h2 class="js-accordion__header">First tab</h2>
-      <p>Content of 1st tab</p>
-    </div>
-    <div class="js-accordion__panel">
-      <h2 class="js-accordion__header">Second tab</h2>
-      <p>Content of 2nd tab</p>
-    </div>
-    <div class="js-accordion__panel">
-      <h2 class="js-accordion__header">Third tab</h2>
-      <p>Content of 3rd tab</p>
-    </div>
-   </div>
-
   <body>
-    <div class="disclaimer">didn't start work on non-mobile version</div>
-    <div class="intro">
+
+    <div class="js-accordion" data-accordion-prefix-classes="animated-accordion">
+      <div class="js-accordion__panel">
+        <h2 class="js-accordion__header">First tab</h2>
+        <p>Content of 1st tab</p>
+      </div>
+      <div class="js-accordion__panel">
+        <h2 class="js-accordion__header">Second tab</h2>
+        <p>Content of 2nd tab</p>
+      </div>
+      <div class="js-accordion__panel">
+        <h2 class="js-accordion__header">Third tab</h2>
+        <p>Content of 3rd tab</p>
+      </div>
+    </div>
+
+    <!-- <div class="intro">
       <img src="./docs/logo.svg" alt="" class="logo-image">
       <h1>kristoffer panahon</h1>
       <span>aspiring developer</span>
@@ -116,7 +117,7 @@
       <a href="mailto:krp312@me.com?Subject=Hello">email</a>
       <a href="https://github.com/krp312/">github</a>
       <a href="https://www.linkedin.com/in/kristoffer-panahon/">linkedin</a>
-    </div>
+    </div> -->
   </body>
 </html>
 
