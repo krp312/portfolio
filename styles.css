@@ -294,42 +294,6 @@ textarea {
   height: 9.7rem;
 }
 
-@media (min-width: 801px) {
-  body {
-    width: 800px;
-    margin: auto;
-  }
-
-  h1 {
-    font-size: 4.2rem;
-    margin-bottom: 1.1rem;
-  }
-
-  .logo-image {
-    height: 4rem;
-    margin: 2.6rem 0 1.4rem 0;
-  }
-
-  .intro span {
-    font-size: 2.1rem;
-  }
-
-  .js-accordion__header {
-    height: 11.1rem;
-  }
-
-  button {
-    font-size: 4.7rem;
-  }
-
-  .contact-buttons a {
-    border-radius: 2.6rem;
-    padding: 1.1rem 2.1rem;
-    margin: 0 1.9rem 0;
-    font-size: 1.6rem;
-  }
-}
-
 @media (min-width: 374px) {
   h1 {
     font-size: 3.3rem;
@@ -367,6 +331,50 @@ textarea {
 
 @media (min-width: 765px) {
   body {
+    width: 56.4rem;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 4.2rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .logo-image {
+    height: 4rem;
+    margin: 3.6rem 0 2.7rem 0;
+  }
+
+  .intro {
+    margin: 1rem auto 4.1rem;
+  } 
+
+  .intro span {
+    font-size: 2.1rem;
+  }
+
+  .js-accordion__header {
+    height: 11.1rem;
+  }
+
+  button {
+    font-size: 4.7rem;
+  }
+
+  .contact-buttons {
+    margin: 4.2rem 2.9rem;
+  }
+
+  .contact-buttons a {
+    border-radius: 2.6rem;
+    padding: 1.1rem 2.1rem;
+    margin: 0 1.9rem 0;
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 801px) {
+  body {
     width: 800px;
     margin: auto;
   }
@@ -386,11 +394,11 @@ textarea {
   }
 
   .js-accordion__header {
-    height: 11.1rem;
+    height: 12rem;
   }
 
   button {
-    font-size: 4.7rem;
+    font-size: 5.6rem;
   }
 
   .contact-buttons a {
