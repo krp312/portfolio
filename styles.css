@@ -181,13 +181,14 @@ li {
 
 button {
   text-align: left;
-  font-size: 2.3rem;
+  font-size: 3.3rem;
   font-family: inherit;
+  padding: 0 0 4.3rem 0.5rem;
 }
 
 #accordion-0-0_tab {
   background-color: #F67280;
-  height: 8rem;
+  height: 9rem;
   border: none;
   width: 100%;
   color: #fdd9dc;
@@ -195,7 +196,7 @@ button {
 
 #accordion-0-1_tab {
   background-color: #C06C84;
-  height: 8rem;
+  height: 9rem;
   border: none;
   width: 100%;
   color: #f0dbe1;
@@ -203,7 +204,7 @@ button {
 
 #accordion-0-2_tab {
   background-color: #6C5B7B;
-  height: 8rem;
+  height: 9rem;
   border: none;
   width: 100%;
   color: #cdc4d4;
@@ -211,11 +212,11 @@ button {
 
 /* title opened */
 .js-accordion__header[aria-expanded="true"]:before {
-  content: "- ";
+  content: "-";
 }
 /* title closed */
 .js-accordion__header[aria-expanded="false"]:before {
-  content: "+ ";
+  content: "+";
 }
 
 /* title selected
@@ -227,6 +228,12 @@ title non selected
 .js-accordion__header[aria-selected="false"]:after {
   content: " (unselc)";
 } */
+
+.js-accordion__panel {
+  font-family: 'Noto Serif', serif;
+  /* font-family: 'EB Garamond', serif; */
+  background-color: #FAE4DD;
+}
 
 .animated-accordion__panel {
   display: block;
@@ -251,3 +258,7 @@ title non selected
   margin: 0;
   padding: 0;
  }
+
+h2.js-accordion__header.animated-accordion__title {
+  display: none;
+}
