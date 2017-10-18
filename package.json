@@ -8,7 +8,7 @@
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "open index.html"
+        "start": "node server.js"
     },
     "repository": {
         "type": "git",
@@ -21,6 +21,7 @@
     },
     "homepage": "https://github.com/krp312/portfolio#readme",
     "dependencies": {
+        "express": "^4.16.2",
         "jquery-accessible-accordion-aria": "^2.4.3"
     }
 }
