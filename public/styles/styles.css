@@ -136,6 +136,10 @@ ol > li {
     font-size: 1.3rem;
 }
 
+.contact-buttons a:hover {
+    background-color: #2c4b65;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -202,7 +206,7 @@ button {
 }
 
 #accordion-0-0_tab:hover {
-    background-color: #f55b6d;
+    background-color: #f56071;
 }
 
 #accordion-0-1_tab {
@@ -223,7 +227,7 @@ button {
 }
 
 #accordion-0-2_tab:hover {
-    background-color: #644a7e;
+    background-color: #664e7c;
 }
 
 #accordion-0-2_tab[aria-expanded='true'] {
