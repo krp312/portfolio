@@ -201,6 +201,10 @@ button {
     border-radius: 0.9rem 0.9rem 0 0;
 }
 
+#accordion-0-0_tab:hover {
+    background-color: #f55b6d;
+}
+
 #accordion-0-1_tab {
     background-color: #c06c84;
     border: none;
