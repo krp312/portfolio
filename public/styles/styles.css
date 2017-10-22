@@ -312,10 +312,6 @@ textarea {
         font-size: 1.8rem;
     }
 
-    /* .js-accordion__header {
-    height: 11.1rem;
-  } */
-
     button {
         font-size: 4.2rem;
     }
@@ -329,6 +325,11 @@ textarea {
 
     .contact-buttons {
         margin: 3.5rem 2.9rem;
+    }
+
+    #accordion-0-0_tab,
+    #accordion-0-2_tab {
+        border-radius: 0;
     }
 }
 
@@ -410,13 +411,12 @@ textarea {
         margin: 0 1.9rem 0;
         font-size: 1.6rem;
     }
-}
 
-/* @media (.js-accordion__header[aria-expanded='true']) {
+    #accordion-0-0_tab {
+        border-radius: 0.9rem 0.9rem 0 0;
+    }
+
     #accordion-0-2_tab {
-        background-color: #3ea360;
-        border: none;
-        color: #7fc229;
         border-radius: 0 0 0.9rem 0.9rem;
     }
-} */
+}
