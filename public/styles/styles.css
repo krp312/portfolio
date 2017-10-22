@@ -211,11 +211,19 @@ button {
     color: #f0dbe1;
 }
 
+#accordion-0-1_tab:hover {
+    background-color: #c05978;
+}
+
 #accordion-0-2_tab {
     background-color: #6c5b7b;
     border: none;
     color: #cdc4d4;
     border-radius: 0 0 0.9rem 0.9rem;
+}
+
+#accordion-0-2_tab:hover {
+    background-color: #644a7e;
 }
 
 #accordion-0-2_tab[aria-expanded='true'] {
