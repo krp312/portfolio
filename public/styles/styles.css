@@ -198,6 +198,7 @@ button {
     background-color: #f67280;
     border: none;
     color: #fdd9dc;
+    border-radius: 0.9rem 0.9rem 0 0;
 }
 
 #accordion-0-1_tab {
@@ -210,6 +211,11 @@ button {
     background-color: #6c5b7b;
     border: none;
     color: #cdc4d4;
+    border-radius: 0 0 0.9rem 0.9rem;
+}
+
+#accordion-0-2_tab[aria-expanded='true'] {
+    border-radius: 0;
 }
 
 /* title opened */
@@ -221,19 +227,8 @@ button {
     content: '+';
 }
 
-/* title selected
-.js-accordion__header[aria-selected="true"]:after {
-  content: " (sel)";
-}
-
-title non selected
-.js-accordion__header[aria-selected="false"]:after {
-  content: " (unselc)";
-} */
-
 .js-accordion__panel {
     font-family: 'Noto Serif', serif;
-    /* font-family: 'EB Garamond', serif; */
     background-color: #fae4dd;
 }
 
@@ -416,3 +411,12 @@ textarea {
         font-size: 1.6rem;
     }
 }
+
+/* @media (.js-accordion__header[aria-expanded='true']) {
+    #accordion-0-2_tab {
+        background-color: #3ea360;
+        border: none;
+        color: #7fc229;
+        border-radius: 0 0 0.9rem 0.9rem;
+    }
+} */
