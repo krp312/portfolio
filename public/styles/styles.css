@@ -90,19 +90,9 @@ ol > li {
     margin-bottom: 1.2rem;
 }
 
-/* .portfolio {
-  background-color: #F67280;
-  height: 9rem;
-} */
-
 .portfolio h2 {
     color: #fdd9dc;
 }
-
-/* .about {
-  background-color: #C06C84;
-  height: 8.5rem;
-} */
 
 .about h2 {
     color: #f0dbe1;
@@ -253,12 +243,12 @@ button {
 }
 
 .animated-accordion__panel {
+    /* magic number for max-height = enough height */
+    /* max-height: 100rem; */
     display: block;
     overflow: hidden;
     opacity: 1;
     transition: visibility 0s ease, max-height 1s ease, opacity 1s ease;
-    max-height: 100em;
-    /* magic number for max-height = enough height */
     visibility: visible;
     transition-delay: 0s;
     margin: 0;
@@ -266,7 +256,9 @@ button {
 }
 
 /* This is the hidden state */
-[aria-hidden='true'].animated-accordion__panel {
+#accordion-0-0.js-accordion__panel[aria-hidden='true'].animated-accordion__panel,
+#accordion-0-1.js-accordion__panel[aria-hidden='true'].animated-accordion__panel,
+#accordion-0-2.js-accordion__panel[aria-hidden='true'].animated-accordion__panel {
     display: block;
     max-height: 0;
     opacity: 0;
@@ -456,5 +448,14 @@ textarea {
 
     #accordion-0-2_tab {
         border-radius: 0 0 0.9rem 0.9rem;
+    }
+
+    /* this specifies the max height of the panel. exact matching of height will yield the best ease effect */
+    #accordion-0-0.js-accordion__panel.animated-accordion__panel {
+        max-height: 296px;
+    }
+
+    #accordion-0-2.js-accordion__panel.animated-accordion__panel {
+        max-height: 290px;
     }
 }
