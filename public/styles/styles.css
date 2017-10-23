@@ -163,10 +163,6 @@ li {
     margin-bottom: 1rem;
 }
 
-.about-blurb p {
-    margin: 1.3rem 0;
-}
-
 .cartoon-face {
     width: 7rem;
 }
@@ -315,6 +311,15 @@ input#sender-name {
 
 textarea {
     height: 9.7rem;
+}
+
+.about-panel-content {
+    display: flex;
+}
+
+.blurb p {
+    line-height: 1.9rem;
+    margin: 0 0 1rem 2rem;
 }
 
 @media (min-width: 374px) {
