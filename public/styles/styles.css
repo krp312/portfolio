@@ -238,10 +238,12 @@ button {
 
 /* title opened */
 .js-accordion__header[aria-expanded='true']:before {
-    content: '–';
+    font-family: monospace;
+    content: '-';
 }
 /* title closed */
 .js-accordion__header[aria-expanded='false']:before {
+    font-family: monospace;
     content: '+';
 }
 
