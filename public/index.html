@@ -33,7 +33,7 @@
           <p>My logo is a waveform because I'm also a musician, and lover of music in general. I can easily enjoy a sweaty DIY
             concert just as much as the Philadelphia Orchestra.</p>
           <p>I'm a lifelong Knicks fan and it's been rough! I also love to cook. Currently I'm exploring curries. And I like
-            to wonder about things taken for granted, like the early days of road traffic laws, or how
+            to wonder about everyday things taken for granted, like the early days of road traffic laws, or how
           </p>
         </div>
       </div>
@@ -92,14 +92,14 @@
     <div class="js-accordion__panel">
       <h2 class="js-accordion__header">contact</h2>
       <div class="panel-content contact-panel-content">
-        <form action="" class="contact-form">
+        <form action="/contact" class="contact-form" method="post">
           <label for="sender-name" hidden>Name</label>
-          <input type="text" id="sender-name" placeholder="Name">
+          <input type="text" id="sender-name" placeholder="Name" name="senderName">
           <label for="sender-name" hidden>Subject</label>
-          <input type="text" id="sender-name" placeholder="Subject">
+          <input type="text" id="sender-subject" placeholder="Subject" name="senderSubject">
           <label for="sender-message" hidden>Message</label>
-          <textarea name="" id="" cols="10" rows="10" id="sender-message" placeholder="Message"></textarea>
-          <input type="submit">
+          <textarea cols="10" rows="10" id="sender-message" placeholder="Message" name="senderMessage"></textarea>
+          <input type="submit" name="submit" id="submit">
         </form>
       </div>
     </div>

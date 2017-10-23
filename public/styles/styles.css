@@ -297,16 +297,10 @@ input[type='submit'] {
     border: 0.1rem solid black;
     font-size: 1.2rem;
     align-self: center;
-    margin-top: 1.4rem;
 }
 
 input[type='submit']:hover {
     background-color: #ac94c1;
-}
-
-input#sender-name {
-    margin-bottom: 1.7rem;
-    height: 2.9rem;
 }
 
 textarea {
@@ -319,12 +313,18 @@ textarea {
 
 .blurb p {
     line-height: 1.9rem;
-    margin: 0 0 1rem 2rem;
+    margin: 0 0 1.6rem 2rem;
 }
 
 .contact-panel-content {
     display: flex;
     justify-content: center;
+}
+
+#sender-name,
+#sender-subject,
+#sender-message {
+    margin-bottom: 1.2rem;
 }
 
 @media (min-width: 374px) {

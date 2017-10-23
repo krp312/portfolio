@@ -21,7 +21,9 @@
     },
     "homepage": "https://github.com/krp312/portfolio#readme",
     "dependencies": {
+        "body-parser": "^1.18.2",
         "express": "^4.16.2",
-        "jquery-accessible-accordion-aria": "^2.4.3"
+        "jquery-accessible-accordion-aria": "^2.4.3",
+        "nodemailer": "^4.2.0"
     }
 }
