@@ -234,6 +234,10 @@ button {
     border-radius: 0;
 }
 
+#accordion-0-2 {
+    border-radius: 0 0 0.9rem 0.9rem;
+}
+
 /* title opened */
 .js-accordion__header[aria-expanded='true']:before {
     content: '–';
@@ -245,7 +249,7 @@ button {
 
 .js-accordion__panel {
     font-family: 'Noto Serif', serif;
-    background-color: #fae4dd;
+    background-color: #dddddd;
 }
 
 .animated-accordion__panel {
@@ -297,7 +301,7 @@ input[type='submit'] {
     width: 40%;
     height: 2.8rem;
     border-radius: 1.4rem;
-    background-color: #fae4dd;
+    background-color: #dddddd;
     border: 0.1rem solid black;
     font-size: 1.2rem;
     align-self: center;
