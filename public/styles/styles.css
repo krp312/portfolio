@@ -1,5 +1,6 @@
 html {
     font-size: 62.5%;
+    overflow-y: scroll;
 }
 
 p,
@@ -143,6 +144,7 @@ ol > li {
 .contact-form {
     display: flex;
     flex-direction: column;
+    width: 33rem;
 }
 
 @media (max-width: 50rem) {
@@ -294,7 +296,7 @@ textarea {
 }
 
 input[type='submit'] {
-    width: 40%;
+    width: 26.5%;
     height: 2.8rem;
     border-radius: 1.4rem;
     background-color: #dddddd;
@@ -302,6 +304,10 @@ input[type='submit'] {
     font-size: 1.2rem;
     align-self: center;
     margin-top: 1.4rem;
+}
+
+input[type='submit']:hover {
+    background-color: #ac94c1;
 }
 
 input#sender-name {
@@ -320,6 +326,11 @@ textarea {
 .blurb p {
     line-height: 1.9rem;
     margin: 0 0 1rem 2rem;
+}
+
+.contact-panel-content {
+    display: flex;
+    justify-content: center;
 }
 
 @media (min-width: 374px) {
