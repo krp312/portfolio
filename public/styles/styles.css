@@ -299,6 +299,11 @@ textarea {
     height: 4.4rem;
 }
 
+#github-anchor:hover {
+    background-color: red;
+    border-radius: 3.8rem;
+}
+
 @media (min-width: 374px) {
     h1 {
         font-size: 3.3rem;
