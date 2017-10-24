@@ -455,6 +455,10 @@ textarea {
         max-height: 296px;
     }
 
+    #accordion-0-1.js-accordion__panel.animated-accordion__panel {
+        max-height: 902px;
+    }
+
     #accordion-0-2.js-accordion__panel.animated-accordion__panel {
         max-height: 290px;
     }
