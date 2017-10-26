@@ -296,12 +296,21 @@ textarea {
 }
 
 #email-link {
-    height: 4.4rem;
+    height: 5.5rem;
 }
 
-#github-anchor:hover {
-    background-color: red;
-    border-radius: 3.8rem;
+#github-link,
+#linkedin-link,
+#email-link {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+#github-link:hover,
+#email-link:hover,
+#linkedin-link:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
 }
 
 @media (min-width: 374px) {
