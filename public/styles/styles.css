@@ -313,11 +313,6 @@ textarea {
     filter: grayscale(0%);
 }
 
-.row {
-    display: flex;
-    justify-content: center;
-}
-
 .portfolio-thumb {
     margin: 0 3.3rem 0;
 }
@@ -344,6 +339,7 @@ textarea {
 
 .description a {
     color: black;
+    font-size: 1.3rem;
 }
 
 .description a:hover {
@@ -372,6 +368,10 @@ textarea {
 
 .pomodoro-background {
     background-color: #8fe2bb;
+}
+
+about-panel-content img {
+    float: left;
 }
 
 @media (min-width: 374px) {
@@ -475,5 +475,10 @@ textarea {
 
     #accordion-0-2.js-accordion__panel.animated-accordion__panel {
         max-height: 118px;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
     }
 }
