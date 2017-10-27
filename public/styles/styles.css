@@ -322,8 +322,7 @@ textarea {
     margin: 0 3.3rem 0;
 }
 
-.portfolio-thumb img,
-description {
+.portfolio-thumb img {
     width: 30rem;
 }
 
@@ -334,7 +333,12 @@ description {
 .description {
     background-color: green;
     margin: 0;
-    padding: 0.6rem;
+    padding: 1.4rem;
+    width: 27.2rem;
+}
+
+.description p {
+    margin: 0 0 0.9rem 0;
 }
 
 .project-name {
