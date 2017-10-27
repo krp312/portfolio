@@ -313,6 +313,34 @@ textarea {
     filter: grayscale(0%);
 }
 
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-thumb {
+    margin: 0 3.3rem 0;
+}
+
+.portfolio-thumb img,
+description {
+    width: 30rem;
+}
+
+.portfolio-thumb img {
+    height: 30rem;
+}
+
+.description {
+    background-color: green;
+    margin: 0;
+    padding: 0.6rem;
+}
+
+.project-name {
+    font-weight: bold;
+}
+
 @media (min-width: 374px) {
     h1 {
         font-size: 3.3rem;
@@ -409,7 +437,7 @@ textarea {
     }
 
     #accordion-0-1.js-accordion__panel.animated-accordion__panel {
-        max-height: 902px;
+        max-height: 100rem;
     }
 
     #accordion-0-2.js-accordion__panel.animated-accordion__panel {
