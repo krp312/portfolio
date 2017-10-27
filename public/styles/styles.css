@@ -322,27 +322,56 @@ textarea {
     margin: 0 3.3rem 0;
 }
 
-.portfolio-thumb img {
+.screenshot-background {
     width: 30rem;
-}
-
-.portfolio-thumb img {
-    height: 30rem;
+    height: 25.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .description {
-    background-color: green;
-    margin: 0;
+    background-color: white;
+    margin: 0 0 2.7rem 0;
     padding: 1.4rem;
     width: 27.2rem;
+    height: 9.1rem;
 }
 
 .description p {
     margin: 0 0 0.9rem 0;
 }
 
+.description a {
+    color: black;
+}
+
+.description a:hover {
+    color: rgb(135, 92, 184);
+}
+
 .project-name {
     font-weight: bold;
+}
+
+.screenshot-background img {
+    width: 27rem;
+}
+
+.snobbly-background {
+    background-color: #f9abab;
+}
+
+.savage-background {
+    background-color: #d2955e;
+}
+
+.stereogum-background {
+    background-color: #fbf9a8;
+}
+
+.pomodoro-background {
+    background-color: #8fe2bb;
 }
 
 @media (min-width: 374px) {
@@ -441,7 +470,7 @@ textarea {
     }
 
     #accordion-0-1.js-accordion__panel.animated-accordion__panel {
-        max-height: 100rem;
+        max-height: 810px;
     }
 
     #accordion-0-2.js-accordion__panel.animated-accordion__panel {
