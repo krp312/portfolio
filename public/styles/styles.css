@@ -229,7 +229,7 @@ button {
 }
 
 #accordion-0-2.js-accordion__panel.animated-accordion__panel {
-    max-height: 118px;
+    max-height: 112px;
 }
 
 /* This is the hidden state */
@@ -290,7 +290,7 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 2.4rem 15.7rem;
+    margin: 2.1rem 0;
 }
 
 #sender-name,
@@ -314,15 +314,15 @@ textarea {
 #github-link,
 #linkedin-link,
 #email-link {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
 }
 
 #github-link:hover,
 #email-link:hover,
 #linkedin-link:hover {
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 .portfolio-thumb {
