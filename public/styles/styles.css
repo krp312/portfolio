@@ -183,10 +183,6 @@ button {
     background-color: #664e7c;
 }
 
-#accordion-0-2_tab[aria-expanded='true'] {
-    border-radius: 0;
-}
-
 #accordion-0-2 {
     border-radius: 0;
 }
@@ -326,7 +322,9 @@ textarea {
 }
 
 .portfolio-thumb {
-    margin: 0;
+    /* margin: auto;
+    width: 32.5rem;
+    display: block; */
 }
 
 .screenshot-background {
@@ -361,7 +359,7 @@ textarea {
 }
 
 .screenshot-background img {
-    width: 27rem;
+    width: 25rem;
 }
 
 .snobbly-background {
@@ -384,6 +382,7 @@ about-panel-content img {
     float: left;
 }
 
+/* iPhone 6 */
 @media (min-width: 374px) {
     h1 {
         font-size: 3.3rem;
@@ -407,9 +406,51 @@ about-panel-content img {
     #accordion-0-2_tab {
         border-radius: 0;
     }
+
+    #accordion-0-0.js-accordion__panel.animated-accordion__panel {
+        max-height: 481px;
+    }
+
+    .portfolio-thumb {
+        margin: auto;
+        width: 32.5rem;
+        display: block;
+    }
+
+    .screenshot-background img {
+        width: 25rem;
+    }
 }
 
-@media (min-width: 765px) {
+/* iPhone 6 Plus */
+@media (min-width: 413px) {
+    #accordion-0-0.js-accordion__panel.animated-accordion__panel {
+        max-height: 443px;
+    }
+
+    .portfolio-thumb {
+        margin: auto;
+        width: 32.5rem;
+        display: block;
+    }
+
+    .screenshot-background img {
+        width: 25rem;
+    }
+
+    .js-accordion__header {
+        display: block;
+        height: 11.2rem;
+        width: 100%;
+    }
+
+    button {
+        font-size: 4.8rem;
+    }
+}
+
+/* iPad */
+@media (min-width: 767px) {
     body {
         width: 56.4rem;
         margin: auto;
@@ -435,6 +476,51 @@ about-panel-content img {
 
     .js-accordion__header {
         height: 11.1rem;
+    }
+
+    #accordion-0-0_tab {
+        border-radius: 0.9rem 0.9rem 0 0;
+    }
+
+    #accordion-0-2_tab {
+        border-radius: 0 0 0.9rem 0.9rem;
+    }
+
+    #accordion-0-0.js-accordion__panel.animated-accordion__panel {
+        max-height: 348px;
+    }
+
+    #accordion-0-1.js-accordion__panel.animated-accordion__panel {
+        max-height: 802px;
+    }
+
+    #accordion-0-2_tab[aria-expanded='true'] {
+        border-radius: 0;
+    }
+
+    #accordion-0-2 {
+        border-radius: 0 0 0.9rem 0.9rem;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .screenshot-background img {
+        width: 19.7rem;
+    }
+
+    .screenshot-background {
+        height: 20.7rem;
+    }
+
+    .portfolio-thumb {
+        width: 22.9rem;
+    }
+
+    .description {
+        height: 11.6rem;
     }
 }
 
@@ -466,29 +552,36 @@ about-panel-content img {
         font-size: 5.6rem;
     }
 
-    #accordion-0-0_tab {
-        border-radius: 0.9rem 0.9rem 0 0;
-    }
-
-    #accordion-0-2_tab {
-        border-radius: 0 0 0.9rem 0.9rem;
-    }
-
     /* this specifies the max height of the panel. exact matching of height will yield the best ease effect */
     #accordion-0-0.js-accordion__panel.animated-accordion__panel {
-        max-height: 296px;
+        max-height: 234px;
     }
 
     #accordion-0-1.js-accordion__panel.animated-accordion__panel {
-        max-height: 810px;
+        max-height: 762px;
     }
 
     #accordion-0-2.js-accordion__panel.animated-accordion__panel {
-        max-height: 118px;
+        max-height: 112px;
     }
 
-    .row {
-        display: flex;
-        justify-content: center;
+    .screenshot-background img {
+        width: 22.7rem;
+    }
+
+    .screenshot-background {
+        height: 20.7rem;
+    }
+
+    .portfolio-thumb {
+        width: 31.4rem;
+    }
+
+    .description {
+        height: 9.6rem;
+    }
+
+    .about-panel-content img {
+        height: 18.6rem;
     }
 }
