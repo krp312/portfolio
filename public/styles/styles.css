@@ -221,7 +221,7 @@ button {
 }
 
 #accordion-0-0.js-accordion__panel.animated-accordion__panel {
-    max-height: 1079px;
+    max-height: 576px;
 }
 
 #accordion-0-1.js-accordion__panel.animated-accordion__panel {
@@ -277,13 +277,13 @@ textarea {
     height: 9.7rem;
 }
 
-.about-panel-content {
-    display: flex;
+.about-panel-content img {
+    float: left;
+    margin: 0 1.4rem 0 0;
 }
 
 .blurb p {
     line-height: 1.9rem;
-    margin: 0 0 1.6rem 2rem;
 }
 
 .contact-panel-content {
