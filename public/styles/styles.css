@@ -326,11 +326,10 @@ textarea {
 }
 
 .portfolio-thumb {
-    margin: 0 3.3rem 0;
+    margin: 0;
 }
 
 .screenshot-background {
-    width: 30rem;
     height: 25.1rem;
     display: flex;
     justify-content: center;
@@ -341,7 +340,6 @@ textarea {
     background-color: white;
     margin: 0 0 2.7rem 0;
     padding: 1.4rem;
-    width: 27.2rem;
     height: 9.1rem;
 }
 
