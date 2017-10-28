@@ -155,7 +155,7 @@ button {
     background-color: #f67280;
     border: none;
     color: #fdd9dc;
-    border-radius: 0.9rem 0.9rem 0 0;
+    border-radius: 0;
 }
 
 #accordion-0-0_tab:hover {
@@ -176,7 +176,7 @@ button {
     background-color: #6c5b7b;
     border: none;
     color: #cdc4d4;
-    border-radius: 0 0 0.9rem 0.9rem;
+    border-radius: 0;
 }
 
 #accordion-0-2_tab:hover {
@@ -188,7 +188,7 @@ button {
 }
 
 #accordion-0-2 {
-    border-radius: 0 0 0.9rem 0.9rem;
+    border-radius: 0;
 }
 
 /* title opened */
@@ -218,6 +218,18 @@ button {
     transition-delay: 0s;
     margin: 0;
     padding: 0;
+}
+
+#accordion-0-0.js-accordion__panel.animated-accordion__panel {
+    max-height: 1079px;
+}
+
+#accordion-0-1.js-accordion__panel.animated-accordion__panel {
+    max-height: 1611px;
+}
+
+#accordion-0-2.js-accordion__panel.animated-accordion__panel {
+    max-height: 118px;
 }
 
 /* This is the hidden state */
