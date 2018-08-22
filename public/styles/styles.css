@@ -321,18 +321,12 @@ textarea {
     filter: grayscale(100%);
 }
 
-.portfolio-thumb {
-    /* margin: auto;
-    width: 32.5rem;
-    display: block; */
-}
-
 .screenshot-background {
     height: 25.1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 0.5rem 0.5rem 0 0;
+    border-radius: 0.7rem 0.7rem 0 0;
 }
 
 .description {
@@ -340,7 +334,11 @@ textarea {
     margin: 0 0 2.7rem 0;
     padding: 1.4rem;
     height: 9.1rem;
-    border-radius: 0 0 0.5rem 0.5rem;
+    border-radius: 0 0 0.7rem 0.7rem;
+}
+
+#headshot {
+  border-radius: 0.3rem;
 }
 
 .description p {
