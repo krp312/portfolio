@@ -332,6 +332,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .description {
@@ -339,6 +340,7 @@ textarea {
     margin: 0 0 2.7rem 0;
     padding: 1.4rem;
     height: 9.1rem;
+    border-radius: 0 0 0.5rem 0.5rem;
 }
 
 .description p {
