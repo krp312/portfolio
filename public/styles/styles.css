@@ -8,6 +8,11 @@ li {
     font-size: 1.4rem;
 }
 
+li {
+    margin-bottom: 0.4rem;
+    line-height: 1.9rem;
+}
+
 body {
     font-family: 'Varela Round', sans-serif;
     background-color: #355c7d;
@@ -86,20 +91,12 @@ a {
     color: black;
 }
 
-ol > li {
-    margin-bottom: 1.2rem;
-}
-
 .portfolio h2 {
     color: #fdd9dc;
 }
 
 .about h2 {
     color: #f0dbe1;
-}
-
-.about-blurb {
-    padding: 1rem 1rem;
 }
 
 @media (max-width: 50rem) {
@@ -114,10 +111,6 @@ ol > li {
 
 .center-child {
     text-align: center;
-}
-
-li {
-    margin-bottom: 1rem;
 }
 
 .cartoon-face {
@@ -339,6 +332,7 @@ textarea {
 
 #headshot {
   border-radius: 0.3rem;
+  margin-bottom: 1.4rem;
 }
 
 .description p {
@@ -446,6 +440,10 @@ about-panel-content img {
 
     button {
         font-size: 4.8rem;
+    }
+
+    .blurb {
+        margin-left: 16.5rem;
     }
 }
 
@@ -583,5 +581,9 @@ about-panel-content img {
 
     .about-panel-content img {
         height: 18.6rem;
+    }
+
+    .blurb {
+        margin-left: 0;
     }
 }
